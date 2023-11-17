@@ -9,6 +9,6 @@ function tocaSom(idElementoAudio)
     const efeito = tecla.classList[1];
     const idAudio = `#som_${efeito}`;   
     tecla.onclick = function(){
-    tocaSom (idAudio);
+    tocaSom(idAudio);
     };
  }
