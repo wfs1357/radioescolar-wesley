@@ -28,6 +28,20 @@ h2 {
   font-size: 1.5rem;
 }
 
+#titulo {
+    font-size: 24px;
+    animation: alterarCores 0.5s linear infinite;
+}
+
+@keyframes alterarCores {
+    0% { color: blue; }
+    25% { color: red; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
