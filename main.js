@@ -1,3 +1,10 @@
+setInterval(function() {
+    var titulo = document.getElementById("titulo");
+    titulo.style.animation = "none";
+    titulo.offsetHeight; /* reiniciar a animação */
+    titulo.style.animation = null;
+}, 500);
+
 function tocaSom(idElementoAudio)
 
  document.querySelector(idElementoAudio).play();
