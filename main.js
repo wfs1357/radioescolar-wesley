@@ -5,9 +5,10 @@ setInterval(function() {
     titulo.style.animation = null;
 }, 500);
 
-function tocaSom(idElementoAudio)
+function tocaSom(idElementoAudio) {
 
  document.querySelector(idElementoAudio).play();
+}
 
  const listaDeTeclas = document.querySelectorAll(".tecla");
 
