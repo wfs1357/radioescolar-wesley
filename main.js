@@ -6,8 +6,7 @@ setInterval(function() {
 }, 500);
 
 function tocaSom(idElementoAudio) {
-
- document.querySelector(idElementoAudio).play();
+    document.querySelector(idElementoAudio).play();
 }
 
  const listaDeTeclas = document.querySelectorAll(".tecla");
